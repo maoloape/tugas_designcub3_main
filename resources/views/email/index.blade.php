@@ -220,7 +220,7 @@
                     }
                 },
                 errorElement: 'span',
-                errorPlacement: function (error, element) {
+                errorPlacement: function ( error, element) {
                     error.addClass('text-danger');
                     element.closest('.form-group').append(error); // Menempatkan error di dalam form-group di modal
                 },
